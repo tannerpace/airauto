@@ -59,31 +59,31 @@ p {
     font-weight: 100;
 }
 .bg-faded {
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(131, 0, 131, 0.85);
 }
 #mainNav {
-    background-color: rgba(0, 17, 190, 1);
+    background-color: rgb(0, 0, 0);
     font-family: Raleway;
 }
 #mainNav .navbar-brand {
-    color: rgba(0,17,190,1);
+    color: rgb(3, 0, 187);
 }
-#mainNav .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.7);
+#mainNav .navbar-nav .nav-item .nav-link {s
+    color: rgba(9, 255, 0, 0.7);
     font-weight: 800;
 }
 #mainNav .navbar-nav .nav-item.active .nav-link {
-    color: #e6a756;
+    color: #a50097;
 }
 @media (min-width: 992px) {
     #mainNav .navbar-nav .nav-item .nav-link {
         font-size: 0.9rem;
     }
     #mainNav .navbar-nav .nav-item .nav-link:hover {
-        color: rgba(255, 255, 255, 0.4);
+        color: rgba(0, 151, 33, 0.4);
     }
     #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-        color: #e7053e;
+        color: #000000;
     }
 }
 .btn-xl {

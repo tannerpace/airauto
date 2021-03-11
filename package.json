@@ -1,11 +1,11 @@
 {
-    "title": "Business Casual",
-    "name": "startbootstrap-business-casual",
-    "version": "5.0.11",
+    "title": "Scrolling Nav",
+    "name": "startbootstrap-scrolling-nav",
+    "version": "4.2.3",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "A casual HTML website theme for businesses built with Bootstrap",
+    "description": "A smooth scrolling navigation HTML template built with Bootstrap",
     "keywords": [
         "css",
         "sass",
@@ -14,9 +14,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/business-casual",
+    "homepage": "https://startbootstrap.com/template/scrolling-nav",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-casual/issues",
+        "url": "https://github.com/StartBootstrap/startbootstrap-scrolling-nav/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -26,22 +26,17 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-business-casual.git"
+        "url": "https://github.com/StartBootstrap/startbootstrap-scrolling-nav.git"
     },
     "dependencies": {
         "bootstrap": "4.5.3",
-        "jquery": "3.5.1"
+        "jquery": "3.5.1",
+        "jquery.easing": "^1.4.1"
     },
     "devDependencies": {
         "browser-sync": "2.26.13",
         "del": "6.0.0",
         "gulp": "4.0.2",
-        "gulp-autoprefixer": "7.0.1",
-        "gulp-clean-css": "4.3.0",
-        "gulp-header": "2.0.9",
-        "gulp-plumber": "^1.2.1",
-        "gulp-rename": "2.0.0",
-        "gulp-sass": "4.1.0",
         "merge-stream": "2.0.0"
     }
 }

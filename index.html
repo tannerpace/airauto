@@ -114,30 +114,72 @@
         </a>
       </div>
     </header>
+
+    <!-- contact section with form to enter an email and information about project -->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="product-item">
+          <div class="product-item-title d-flex">
+            <div class="bg-faded p-5 d-flex ml-auto rounded">
+              <h2 class="section-heading mb-0">
+                <span class="section-heading-upper">Contact Us</span>
+
+              </h2>
+            </div>
+          </div>
+          <div class="bg-faded p-5 rounded">
+            <form id="form">
+              <!-- name -->
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="name">
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email address</label>
+                <input type="email" class="form-control" value="email" placeholder="email" id="email"
+                  placeholder="email">
+              </div>
+
+              <!-- phone   -->
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Phone</label>
+                <input type="phone" class="form-control" id="phone" placeholder="phone">
+              </div>
+
+              <!-- message -->
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <button class="btn btn-secondary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- End-->
     <section class="page-section cta">
 
 
       <section class="page-section about-heading">
         <div class="container">
           <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="img/about.jpg" alt="">
-
-
-
-
-
-          <div class="row">
+          <div class="row mx-auto">
             <img class="intro-img img-fluid mb-0 mb-lg-0 "
               src="https://github.com/tannerpace/Dronelab/blob/master/logosizev1.png?raw=true"
               alt="our customers logos.">
 
-            <p><a href="https://berkeleyhallclub.com/"><button type="button " class="btn btn-secondary">Berkley
+            <p class="mr-3"><a href="https://berkeleyhallclub.com/"><button type="button "
+                  class="btn btn-secondary">Berkley
                   Hall</button> </p></a>
-            <p><a href="https://www.harristeeter.com/"><button type="button " class="btn btn-secondary">Harris
+            <p class="mr-3"><a href="https://www.harristeeter.com/"><button type="button "
+                  class="btn btn-secondary">Harris
                   Teeter</button></p></a>
-            <p><a href="https://www.firstsolar.com/"> <button type="button" class="btn btn-secondary">First
+            <p class="mr-3"><a href="https://www.firstsolar.com/"> <button type="button" class="btn btn-secondary">First
                   Solar</button>
             </p></a>
-            <p><a href="https://ink-global.com/"> <button type="button" class="btn btn-secondary">Ink
+            <p class="mr-3"><a href="https://ink-global.com/"> <button type="button" class="btn btn-secondary">Ink
                   Global</button>
             </p>
             </a>
@@ -384,56 +426,14 @@
     </div>
   </section>
   <!-- End-->
-  <!-- contact section with form to enter an email and information about project -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="product-item">
-        <div class="product-item-title d-flex">
-          <div class="bg-faded p-5 d-flex ml-auto rounded">
-            <h2 class="section-heading mb-0">
-              <span class="section-heading-upper">Contact Us</span>
 
-            </h2>
-          </div>
-        </div>
-        <div class="bg-faded p-5 rounded">
-          <form id="form">
-            <!-- name -->
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Name</label>
-              <input type="name" class="form-control" id="name" placeholder="name">
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input type="email" class="form-control" value="email" placeholder="email" id="email" placeholder="email">
-            </div>
-
-            <!-- phone   -->
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Phone</label>
-              <input type="phone" class="form-control" id="phone" placeholder="phone">
-            </div>
-
-            <!-- message -->
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-            <button class="btn btn-secondary">Submit</button>
-          </form>
-        </div>
-      </div>
-    </div>
-
-  </section>
-  <!-- End-->
 
 
   <section class="page-section cta">
     <div class="d-flex justify-content-evenly">
-      <div class="row" style="display: contents;">
+      <div class="row" style="display: contents; ">
         <a href="https://www.facebook.com/airau.tonomo/" target="_blank" class="col-sm-2 offset-sm-1">
-          <button class="btn-block btn-l" style="height: 100%; width: 100%;">
+          <button class="btn-block btn-l" style="height: 100%; width: 100%;  border-radius:20px">
             <i class="fab fa-facebook-square"><img class="fb" alt="Facebook"
                 src="https://raw.githubusercontent.com/tannerpace/airauto/82143cd8d9219e18d5147488fb8b493702b1c949/img/facebook.svg">
 
@@ -443,7 +443,7 @@
 
 
         <a href="https://www.instagram.com/airautonomo/" target="_blank" class="col-sm-2">
-          <button class="btn-block btn-l" style="height: 100%; width: 100%;">
+          <button class="btn-block btn-l" style="height: 100%; width: 100%; border-radius:20px;">
             <i class="fab fa-github"><img class="instagram" alt="Instagram"
                 src="https://raw.githubusercontent.com/tannerpace/airauto/82143cd8d9219e18d5147488fb8b493702b1c949/img/instagram.svg">
 
@@ -452,7 +452,7 @@
         </a>
 
         <a href="https://twitter.com/@boyashaka83" class="col-sm-2">
-          <button class="btn-block btn-l" style="height: 100%; width: 100%;">
+          <button class="btn-block btn-l" style="height: 100%; width: 100%;  border-radius:20px">
             <i class="fab fa-github"><img class="twitter" alt="Twitter"
                 src="https://raw.githubusercontent.com/tannerpace/airauto/82143cd8d9219e18d5147488fb8b493702b1c949/img/twitter.svg">
               <p>
@@ -464,20 +464,23 @@
 
 
         <a href="mailto:airautonomo@gmail.com" class="col-sm-2">
-          <button class="btn-block btn-xl" style="height: 100%; width: 100%;">
-            <i class="fab fa-facebook-square"><img class="twitter" alt="Twitter"
-                src="https://raw.githubusercontent.com/tannerpace/airauto/1181bf83db1c39307b4ae026ca42783b6a2d9563/img/envelope.svg">
+          <button class="btn-block btn-xl" style="height: 100%; width: 100%;  border-radius:20px">
+            <i class="fab fa-facebook-square pt-3"><img class="twitter" alt="Twitter" "
+                src="
+                https://raw.githubusercontent.com/tannerpace/airauto/1181bf83db1c39307b4ae026ca42783b6a2d9563/img/envelope.svg">
 
             </i>
           </button>
         </a>
 
-        <button class="btn-block btn-xl col-sm-2">
-          <a href="tel:8438047807&#8236;" class="btn-block btn-xl"><i class="fas fa-mobile-alt"><img class="twitter"
-                alt="Twitter"
+        <button class="btn-block btn-xl col-sm-2"
+          style="height: 100%; width: 100%;  border-radius:20px; box-shadow: inset ;">
+          <a href="tel:8438047807&#8236;" class="btn-block btn-xl">
+            <i class="fas fa-mobile-alt"><img class="twitter" alt="Twitter"
                 src="https://raw.githubusercontent.com/tannerpace/airauto/1181bf83db1c39307b4ae026ca42783b6a2d9563/img/phone.svg">
               (843) 804-7807
-            </i></a></button>
+            </i>
+          </a></button>
       </div>
     </div>
   </section>
@@ -504,35 +507,62 @@
         const phone = document.getElementById("phone").value;
         const message = document.getElementById("message").value;
         const name = document.getElementById("name").value;
-        fetch("http://ec2-52-91-3-158.compute-1.amazonaws.com:8080/app/airautonomo/form", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            email,
-            phone,
-            message,
-            name,
-          }),
-        })
-          .then((res) => res.json())
-          .then((data) => {
-            console.log("data", data);
-            if (data.message) {
-              alert(data.message);
-              this.reset();
-            } else {
-              alert("Message failed to send.");
-            }
+        // validate phone number
+        if (phone.length < 10) {
+          alert("Please enter a valid phone number");
+        }
+        else if (isNaN(phone)) {
+          alert("Please enter a valid phone number");
+        }
+        else if (email.indexOf("@") == -1 || email.length < 6) {
+          alert("Please enter a valid email");
+        }
+        if (email == "") {
+          alert("Please enter your email");
+          return false;
+        } else if (phone == "") {
+          alert("Please enter your phone number");
+          return false;
+        } else if (message == "") {
+          alert("Please enter your message");
+          return false;
+        } else if (name == "") {
+          alert("Please enter your name");
+          return false;
+
+
+        } else {
+          fetch("http://ec2-52-91-3-158.compute-1.amazonaws.com:8080/app/airautonomo/form", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              email,
+              phone,
+              message,
+              name,
+            }),
           })
-          .catch((err) => {
-            console.log("err", err);
-          });
+            .then((res) => res.json())
+            .then((data) => {
+              console.log("data", data);
+              if (data.message) {
+                alert(data.message);
+              } else {
+                alert("Message failed to send.");
+              }
+            })
+            .catch((err) => {
+              console.log("err", err)
+            })
 
-
-
+        }
       });
+
+
+
+
 
     </script>
 

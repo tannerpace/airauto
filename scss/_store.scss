@@ -2,7 +2,7 @@
   font-size: 0.9rem;
   .list-hours-item {
     border-bottom: 1px solid fade-out($primary, 0.5);
-    padding-bottom: .25rem;
+    padding-bottom: 0.25rem;
     margin-bottom: 1rem;
     font-style: italic;
     &.today {
@@ -10,7 +10,7 @@
       color: $primary;
     }
   }
-  @media(min-width: 992px) {
+  @media (min-width: 992px) {
     width: 50%;
     font-size: 1.1rem;
   }

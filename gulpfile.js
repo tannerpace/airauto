@@ -10,9 +10,9 @@ const merge = require("merge-stream");
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: "./",
     },
-    port: 3000
+    port: 3000,
   });
   done();
 }
@@ -31,17 +31,20 @@ function clean() {
 // Bring third party dependencies from node_modules into vendor directory
 function modules() {
   // Bootstrap
-  var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
-    .pipe(gulp.dest('./vendor/bootstrap'));
+  var bootstrap = gulp
+    .src("./node_modules/bootstrap/dist/**/*")
+    .pipe(gulp.dest("./vendor/bootstrap"));
   // jQuery
-  var jquery = gulp.src([
-      './node_modules/jquery/dist/*',
-      '!./node_modules/jquery/dist/core.js'
+  var jquery = gulp
+    .src([
+      "./node_modules/jquery/dist/*",
+      "!./node_modules/jquery/dist/core.js",
     ])
-    .pipe(gulp.dest('./vendor/jquery'));
+    .pipe(gulp.dest("./vendor/jquery"));
   // jQuery Easing
-  var jqueryEasing = gulp.src('./node_modules/jquery.easing/*.js')
-    .pipe(gulp.dest('./vendor/jquery-easing'));
+  var jqueryEasing = gulp
+    .src("./node_modules/jquery.easing/*.js")
+    .pipe(gulp.dest("./vendor/jquery-easing"));
   return merge(bootstrap, jquery, jqueryEasing);
 }
 
